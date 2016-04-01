@@ -1,17 +1,17 @@
 # Setting-Bluetooth-Devices-on-Linux
 
 
-# bluetoothctl
-[bluetooth]# list
-Controller <controller mac> BlueZ 5.5 [default]
-[bluetooth]# select <controller mac>
-[bluetooth]# power on
-[bluetooth]# scan on
-[bluetooth]# agent on
-[bluetooth]# devices
-Device <mouse mac> Name: Bluetooth Mouse
-[bluetooth]# pair <mouse mac>
-[bluetooth]# trust <mouse mac>
-[bluetooth]# connect <mouse mac>
+bluetoothctl <br>
+[bluetooth]# list <br>
+Controller <controller mac> BlueZ 5.5 [default] <br>
+[bluetooth]# select <controller mac> <br>
+[bluetooth]# power on <br>
+[bluetooth]# scan on <br>
+[bluetooth]# agent on <br>
+[bluetooth]# devices <br>
+Device <mouse mac> Name: Bluetooth Mouse <br>
+[bluetooth]# pair <mouse mac> <br>
+[bluetooth]# trust <mouse mac> <br>
+[bluetooth]# connect <mouse mac> <br>
 
 Reference: https://wiki.archlinux.org/index.php/bluetooth_mouse
