@@ -1,15 +1,15 @@
 # Setting-Bluetooth-Devices-on-Linux
 
 
-bluetoothctl <br>
+\>bluetoothctl <br>
 [bluetooth]# list <br>
-Controller <controller mac> BlueZ 5.5 [default] <br>
-[bluetooth]# select <controller mac> <br>
+Controller \<controller mac\> BlueZ 5.5 \[default\] <br>
+[bluetooth]# select \<controller mac\> <br>
 [bluetooth]# power on <br>
 [bluetooth]# scan on <br>
 [bluetooth]# agent on <br>
 [bluetooth]# devices <br>
-Device <mouse mac> Name: Bluetooth Mouse <br>
+Device \<mouse mac\> Name: Bluetooth Mouse <br>
 [bluetooth]# pair <mouse mac> <br>
 [bluetooth]# trust <mouse mac> <br>
 [bluetooth]# connect <mouse mac> <br>
